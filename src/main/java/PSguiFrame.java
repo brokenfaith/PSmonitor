@@ -1,5 +1,5 @@
 /**
- * Created by BartowB on 3/28/2016.
+ * Created by BartowB on 4/13/2018.
  * Simple Program that will monitor services required to run powerschool and database
  * it will start or shutdown services that are set to manual, and will also monitor all
  * services, this can be seen through colored status icons, green=started, yellow=starting
@@ -219,7 +219,7 @@ public class PSguiFrame {
 
     }
 
-    //listener function that will interpert the button click to run command line bat files based on
+    //listener function that will interpret the button click to run command line bat files based on
     //what button is clicked.
     private class ButtonClickListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
