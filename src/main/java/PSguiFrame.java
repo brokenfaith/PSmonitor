@@ -58,7 +58,7 @@ public class PSguiFrame {
         //setup mainframe Jframe that will hold all of the elements within it
         //gridlayout to keep everything organized and a title
         mainFrame = new JFrame("PS Database and Application Service Controller");
-        mainFrame.setSize(800, 700);
+        mainFrame.setSize(900, 700);
         mainFrame.setLayout(new GridLayout(10, 3, 10, 10));
 
 
